@@ -1,0 +1,23 @@
+
+Software maintenance is very key and a major secret of success in software engineering. Software organizations always encounter challenges at different levels when developing applications and software. DevOps has a lot to do with software maintenance. It portrays a kind of culture that enables collaboration between the development, and operations teams to build solutions that are being tested continuously during deployment and in a production environment. DevOps focused more on monitoring and analyzing the production environment to ensure that everything works better in the safest and most reliable way and since the process is continuous relevant feedback is constantly provided to the developers. They are committed to resolving development and code deployment issues leading to errors in production. They develop and test out solutions before deploying to production. These processes involve automating and scripting the environment.
+
+DevOps monitoring processes allows IT organization to identify specific issues of specific releases and understand the impact on end-users. These processes involve a “continuous delivery” which includes: plan, code, build, test. This process helps identify any issues or defects with the application which would then be communicated as feedback to the developer. The application will not be deployed until the code passes the scripting test then the DevOps team starts monitoring the environment.  This monitoring process helps speed up delivery and in turn provides better software quality, quicker feedback from customers, and ensures high customer satisfaction.
+
+Continuous integration and monitoring are a crucial part of the DevOps lifecycle for successful continuous delivery. Leveraging on these processes and some important tools such as the version control tool helps minimize some manual processes which save time and ensure faster time to market.  
+
+Few important IT tools needed to be a good DevOps Engineer
+
+Git is used for storing application code. And for tracking the progress of development work.
+
+Maven and Gradle build tools that take code from different repositories and combine them to build the complete application.
+
+Selenium and JUnit are automation testing tools for testing applications to ensure software quality, Also used for a scripted testing environment. 
+
+Jenkins is used for integrating new features automatically to an already existing codebase when testing is complete.
+
+Docker is more like a container so it can be used to isolate applications into separate containers meaning no need to manage dependencies separately both the software and its dependencies can be packaged and shipped together as a unit. It can also automate application deployment. Docker can also integrate with tools such as Jenkins.
+Puppet allows you to manage and automate software inspection, delivery, and operation, which means software can be delivered faster and more securely.
+
+
+
+
