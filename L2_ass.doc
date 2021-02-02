@@ -1,0 +1,64 @@
+Introduction to Networking
+
+Describe Hub, Switch, and Router
+
+Hub is a device that helps split network signals into multiple computers. They are basically just splitters with no intelligence.
+
+A switch is also an internet splitter. It’s what allows the computer network components or hardware devices to connect together and as a result, communicate with each other.
+
+Routers are used logically to split networks. It enables multiple devices to share a single internet connection.
+
+What is the OSI model? 
+OSI (Open Systems Interconnection) is a networking protocol and model that describes the functions of a networking or telecommunication system. It helps understands how information from a software application of one computer can be transmitted to a software application of another computer. It makes use of layers that communicates how the network operates and also helps to visualize issues with the networking system which can help to troubleshoot the problems.
+
+Explain the different layers of the OSI model.
+
+The Application Layer is the layer that the end-user interacts with and used to facilitates communication. It’s used for sending and receiving information and this allows the user to have access to the network. The information received is presented as meaningful data to the users. It contains a variety of protocols that are commonly needed by users such as HTTP (HyperText transfer protocol), FTP(File Transfer Protocol), DNS(Domain Name System), pOp(post Office protocol.
+Web browsers such as Google Chrome, Firefox, etc are also a few examples of communications that rely on the application layer.
+
+The presentation layer prepares data for the application layer. It’s how data gets presented to devices. It has a functionality that can translate or communicates encrypted data or information so it’s received correctly on the other end in such a way that the receiver will understand the information(data) and be able to use the data irrespective of the syntax and semantics of the information that’s being exchanged. This layer translates the data from the application layer to the session layer. The presentation layer protocols examples are HTTP, FTP(server), HTML
+
+Session Layer controls the connections between multiple computers. It allows users on different computers to establish active communication sessions between them. A session is created when two devices, computers, or servers need to communicate with each other. The session remains open while data is being transferred and closed as soon as communication ends. 
+
+
+Transport Layer takes data transferred in the layer above it and splits it up into smaller units, and then passes these data units to the network layer and ensures that all the pieces arrive correctly at the receiving end. It ensures the split data reassembled correctly upon arrival at the destination and if not replaces any missing or lost data in transmission. TCP is the best-known example of the transport layer.
+
+Network Layer is responsible for sending packets of data back and forth between different networks. When a message is sent from one network to another this layer splits the messages into packets and reassembling the packets on the receiving end. It helps implement routing of packets by discovering the best path through a network. The Internet Protocol (IP) is the main protocol used at this layer, so this layer uses the network address such as the Ip address to route packets from the source to the final destination.
+
+Data Link Layer is the closest to the hardware (physical layer). It receives packets and splits them into frames and sends them to the final destination. It ensures that these frames received are error-free at the physical layer and meant for the particular device by using physical address retrieved from the networking hardware on the device. It composed of two parts, The Logical Link Control(LLC) which identifies network protocols, and the Media Access Control(MAC) which uses the(MAC) addresses that helps control the flow of data packets to and from one network interface card to another across a shared channel in a network.
+
+The Physical Layer is the physical and electrical representation of the system. It handles the setup of a physical connection to the network and with transmission and reception of signals. It comprised of various network components such as power plug, connectors, electrical cable, receivers, etc. 
+This layer contains information or data in the form of bits and transmits these bits which are first encoded into signals from the sending device to the receiving device across the network. Troubleshooting begins at this layer whenever a network issue occurs.
+This layer defines the relationship between a device and a transmission medium such as an optical cable.
+
+
+
+What do you mean by the TCP/IP Model?
+The TCP/IP Model is a standard protocol, meaning a set of rules that allows computers to communicate with each other over a network. These rules ensure that data is transmitted correctly between two computers. The transmitted data goes through four individual layers before it’s received on the other end and then the TCP/IP then goes through these layers in reverse order to reassemble the data and present it to the recipient.
+
+
+What do you mean by HTTP, TCP, and UDP
+
+HTTP(HyperText Transfer Protocol) is a request-response protocol used to transfer data over the web. It uses a server-client model and gives users the flexibility to interact with web resources such as HTML files by transmitting hypertext messages between clients and servers. The client (web browser) uses HTTP to transmit the request for the webpage and TCP protocol to communicate the request to the server.
+
+TCP(Transmission Control Protocol) is a protocol used for sending bits of data
+Known as packets from a recipient(computer) to a server or remote system(another computer) and the server responds back by sending the TCP packets (data) in a meaningful and readable format as a webpage. It’s reliable because it ensures data is delivered to its particular destination which also means that it’s not just one-way communication. The server always sends back packets to acknowledge it receives the recipient’s packets. TCP is reliable as error connection is catered for, packets are always checked for errors.
+
+UDP( User Datagram Protocol) protocol works similarly to TCP but in this case, the server doesn’t respond back. Sometimes not all the packets get delivered to the recipient and this results in a speedy delivery and helps the computer to communicate more quickly. it’s more efficient and useful when speed is desirable and error connection isn’t necessary.
+
+What is a Firewall?
+A firewall is a security device that tries to protect and prevent hackers from getting into a particular network through the internet.
+
+Explain DNS
+DNS (Domain Name System) helps internet users discover websites using human-readable addresses. When a computer or a device is connected to the internet, it’s assigned a unique IP(Internet Protocol) address so that other computers can easily locate and identify it. DNS translates human-readable domain names (for example google.com) to machine-readable IP addresses. The IP is a string of numbers (for example 192.0.2.44) so basically, all computers on the internet communicate with one another by using these numbers known as IP addresses. So when you type the address of a website you don’t need to remember and enter a long number instead you can easily enter a domain name like facebook.com and still end up in the right direction.
+Domain names allow users to select easy-to-remember names from their websites.
+
+Define Latency
+Latency is a measure of delay. It measures the time it takes for a request to travel from the sender to the receiver and for the receiver to process that request.
+
+Define Caching
+Caching is the process of storing copies of files in a cache, or a temporary storage location so that they can be accessed more quickly.
+
+Explain Wireless Access Point
+It’s a hardware device that allows wireless computers and devices to connect to the wireless network without cables. It connects the unwired network to the wired network and provides wireless internet in public places like airports, schools, etc.
+
