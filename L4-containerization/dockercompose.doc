@@ -1,0 +1,8 @@
+Docker compose is used for running multiple containers as a single service. 
+It files are written in a scripting language called YAML.
+
+My dockerhub profile link:
+https://hub.docker.com/u/rythae
+
+My dockehub image link:
+https://hub.docker.com/repository/docker/rythae/my-app
